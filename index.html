@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Escape Time Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Lab Escape time calculator</h2>
+            <div class="block_input">
+                <label><img src="images/dirt.png" alt="Dirt" class="mcblock"></label> <input type="number" id="dirt" min="0" max="70">
+            </div>
+            <div class="block_input">
+                <label><img src="images/stone.png" alt="Stone" class="mcblock"></label> <input type="number" id="stone" min="0" max="70">
+            </div>
+            <div class="block_input">
+                <label><img src="images/wood.png" alt="Wood" class="mcblock"></label> <input type="number" id="wood" min="0" max="70">
+            </div>
+        <br>
+        <button onclick="calculateTime()">Calculate fastest time</button>
+        <div id="result"></div> <!-- Result goes here -->
+    </div>
+    
+    <script src="js/CalculateTime.js"></script>
+</body>
+</html>
