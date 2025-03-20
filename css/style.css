@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.container { /* div */
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+input { /* text inputs */
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+.mcblock { /* Size of the block images in the input field */
+    width: 32px;
+}
+
+.block_input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
